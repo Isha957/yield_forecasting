@@ -45,7 +45,7 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
 <ul>
 <li><b><i>NDVI Data Modeling:</i></b></li>
 <p>The preprocessed data was run through multiple prediction models to compare and analyze the results, performance metrics, and visualization. The regression        models assessed to show model predicted yield values against the Maximum Bi-weekly NDVI values during June.</p>
-
+![alt text](https://github.com/Isha957/yield_forecasting/blob/[branch]/image.jpg?raw=true)
 <li><b><i>GCVI Data Modeling:</i></b></li>
 <p>The preprocessed data was run through multiple prediction models to compare and analyze the results, performance metrics, and visualization. The regression      models assessed to show model predicted yield values against the Maximum Bi-weekly GCVI values during June.</p>
 </p>
