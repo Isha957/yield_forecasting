@@ -4,7 +4,7 @@
 <p style="font-family:times" >
         <b>The focus of the Project/Model:</b></br>
 Using the ground data from rice farms in the Katavi region of Tanzania, we build a machine learning model that predicts the end-of-season rice yield from different earth observation features.
-        <b style ="color:009B77">Test Data Boundaries</b></br>
+        <p color:"009B77"><b>Test Data Boundaries</b></p></br>
 A shapefile was created to represent the geographical boundaries of each surveyed field.  The GEOCIF data for January through June comes with multiple features that provide information about the field’s location, area, geometry, and harvest. Given a shapefile with a polygon for each field and an attribute for the weight of the harvest, we calculate a yield value for each field. Geopandas is used to convert the file to the UTM Zone 36S coordinate reference system, and then the area is calculated for each polygon in square meters. Geopandas also allows yield calculation by dividing the weight by the area in a new attribute.
 
 
@@ -30,10 +30,10 @@ Equation 2: Calculation for GCVI from Sentinel 2 bands 8 and 3
 
 Sentinel-2 derived NDVI and GVCI are extracted for the area of interest biweekly from January through June from Google Earth Engine.
 <ul>
-        <li><b><i>Extraction of NDVI time series data:</i></b></li>
+<li><b><i>Extraction of NDVI time series data:</i></b></li>
 <p>Using the Sentinel-2 Image Collection band data: Bands - B4 (Red) ; B8  (NIR) and the above formula, we obtain max NDVI values for each image. The NDVI tif        images are extracted  at 10m resolution.We generate these values every two weeks between the date range and export these images into a tiff file. These files can be accessed in Python using Geopandas/Rasterio and can be visualized.</p>
 
-        <li><b><i>Extraction of GCVI time series data:</i></b></li>
+<li><b><i>Extraction of GCVI time series data:</i></b></li>
 <p>Using the Sentinel-2 Image Collection band data: Bands - B3 (Green) ; B8  (NIR) and the above formula, we obtain max GCVI values for each image. The GCVI        tif images are extracted  at 10m resolution.We generate these values every two weeks between the date range and export these images into a tiff file. These files can be accessed in Python using Geopandas/Rasterio and can be visualized.
 </ul>
 
@@ -43,12 +43,12 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
 
 <b><u>Model Experimentation:</u></b>
 <ul>
-        <li><b><i>NDVI Data Modeling:</i></b></li>
+<li><b><i>NDVI Data Modeling:</i></b></li>
 <p>The preprocessed data was run through multiple prediction models to compare and analyze the results, performance metrics, and visualization. The regression        models assessed to show model predicted yield values against the Maximum Bi-weekly NDVI values during June.</p>
 
-        <li><b><i>GCVI Data Modeling:</i></b></li>
+<li><b><i>GCVI Data Modeling:</i></b></li>
 <p>The preprocessed data was run through multiple prediction models to compare and analyze the results, performance metrics, and visualization. The regression      models assessed to show model predicted yield values against the Maximum Bi-weekly GCVI values during June.</p>
-        </p>
+</p>
         
 </body>
 </html>
