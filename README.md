@@ -41,6 +41,8 @@ Sentinel-2 derived NDVI and GVCI are extracted for the area of interest biweekly
 Machine Learning using PyspatialML and Scikit-learn
 With the python library Pyspatialml, scikit-learn machine learning models can be applied to raster-based datasets. Here we used monthly maximum NDVI rasters extracted from the GEE products as bands with the tsraster library as input features. The target data, field-scale yield values, were in a shapefile format that could be overlaid on the rasters to extract corresponding feature raster values to create the training data set. Pyspatialml also includes methods to plot the results and modify rasters.
 
+<img src ="https://github.com/Isha957/yield_forecasting/blob/master/Cropmaskvisualization.png" alt = "Applying Cross Mask"></img>
+
 <h2><u>Model Experimentation:</u></h2>
 <ul>
 <li><b><i>NDVI Data Modeling:</i></b></li>
