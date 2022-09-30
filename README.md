@@ -40,16 +40,31 @@ Sentinel-2 derived NDVI and GVCI are extracted for the area of interest biweekly
 <h2><u>Building the Regional Model:</u></h2>
 Machine Learning using PyspatialML and Scikit-learn
 With the python library Pyspatialml, scikit-learn machine learning models can be applied to raster-based datasets. Here we used monthly maximum NDVI rasters extracted from the GEE products as bands with the tsraster library as input features. The target data, field-scale yield values, were in a shapefile format that could be overlaid on the rasters to extract corresponding feature raster values to create the training data set. Pyspatialml also includes methods to plot the results and modify rasters.
-
+</br>
 <img src ="https://github.com/Isha957/yield_forecasting/blob/master/Cropmaskvisualization.png" alt = "Applying Cross Mask"></img>
 
 <h2><u>Model Experimentation:</u></h2>
 <ul>
 <li><b><i>NDVI Data Modeling:</i></b></li>
 <p>The preprocessed data was run through multiple prediction models to compare and analyze the results, performance metrics, and visualization. The regression        models assessed to show model predicted yield values against the Maximum Bi-weekly NDVI values during June.</p>
-![alt text](https://github.com/Isha957/yield_forecasting/blob/[branch]/image.jpg?raw=true)
+<img src="https://github.com/Isha957/yield_forecasting/blob/master/Linear%20Regression_NDVI.png"></img>
+<i>From the above performance metrics, we note that Linear Regression algorithm performed the best on the maximum NDVI data for the 13 biweekly time periods from January through June with the lowest Root Mean Squared Error Value of 0.47 and an R-squared value of 0.015</i>
+</br>
+
 <li><b><i>GCVI Data Modeling:</i></b></li>
 <p>The preprocessed data was run through multiple prediction models to compare and analyze the results, performance metrics, and visualization. The regression      models assessed to show model predicted yield values against the Maximum Bi-weekly GCVI values during June.</p>
+<img src= "https://github.com/Isha957/yield_forecasting/blob/master/Linear%20Regression.png"></img>
+<i>From the above performance metrics, we note that Linear Regression algorithm has performed the best on the maximum GCVI data for the 13 biweekly time periods from January through June with the lowest Root Mean Squared Error Value of 0.47 and an R-squared value of 0.015</i>
+
+
+<h2>Time-Series Visualization</h2>
+<img src =" https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-NDVI.png"></img>
+ <i>NDVI time series plot, NDVI value at each biweekly interval represents an average of the values across rice fields locations</i>
+ </br>
+ 
+ <img src="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-GCVI.png"></img>
+ <i>GCVI time series plot, GCVI value at each biweekly interval represents an average of the values across rice fields location.</i>
+
 </p>
         
 </body>
