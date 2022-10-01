@@ -1,6 +1,7 @@
 # NASA SERVIR - yield_forecasting
 <html>
 <body>
+        <h1><font color = "Green">NASA SERVIR </h1>
 <p style="font-family:times" >
 <h2>The focus of the Project/Model:</h2><br>
 Using the ground data from rice farms in the Katavi region of Tanzania, we build a machine learning model that predicts the end-of-season rice yield from different earth observation features.
@@ -77,6 +78,13 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
  </ul>
 <p>Performance Metrics Used - RMSE , R-squared , CV accuracy</p>
        
+<h2><font color="Green"> Team </h2>
+<ul>
+        <li>Dr.Catherine Nakalembe</li>
+        <li>Dr. Ritvik Sahajpal</li>
+        <li>Alana Ceil Ginsburg</li>
+        <li>Mahmoud Abuoelmakarem</li>
+        </ul>       
 </p>    
 </body>
 </html>
