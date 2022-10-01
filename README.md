@@ -1,9 +1,8 @@
-# yield_forecasting
+# NASA SERVIR - yield_forecasting
 <html>
 <body>
 <p style="font-family:times" >
-<h1 color ="Yellow"> NASA SEVIR </h2><br>
-        <h2>The focus of the Project/Model:</h2><br>
+<h2>The focus of the Project/Model:</h2><br>
 Using the ground data from rice farms in the Katavi region of Tanzania, we build a machine learning model that predicts the end-of-season rice yield from different earth observation features.
 <p color="009B77"><h2>Test Data Boundaries</h2></p>
 A shapefile was created to represent the geographical boundaries of each surveyed field.  The GEOCIF data for January through June comes with multiple features that provide information about the field’s location, area, geometry, and harvest. Given a shapefile with a polygon for each field and an attribute for the weight of the harvest, we calculate a yield value for each field. Geopandas is used to convert the file to the UTM Zone 36S coordinate reference system, and then the area is calculated for each polygon in square meters. Geopandas also allows yield calculation by dividing the weight by the area in a new attribute.
