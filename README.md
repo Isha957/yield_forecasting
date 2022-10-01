@@ -59,7 +59,6 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
 
 <li><b><i>GCVI Data Modeling:</i></b></li>
 <p>The preprocessed data was run through multiple prediction models to compare and analyze the results, performance metrics, and visualization. The regression      models assessed to show model predicted yield values against the Maximum Bi-weekly GCVI values during June.</p>
-
 <img src ="https://github.com/Isha957/yield_forecasting/blob/master/Linear%20Regression.png" style="width:300px;height:200px";></img><br>
 <i>From the above performance metrics, we note that Linear Regression algorithm has performed the best on the maximum GCVI data for the 13 biweekly time periods from January through June with the lowest Root Mean Squared Error Value of 0.47 and an R-squared value of 0.015</i>
 
