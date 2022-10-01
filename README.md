@@ -39,7 +39,7 @@ Sentinel-2 derived NDVI and GVCI are extracted for the area of interest biweekly
 <img src = "https://github.com/Isha957/yield_forecasting/blob/master/images/gcvi%20image.png" style="width:300px;height:200px";></img><br>
 </ul><br>
 
-<img src ="https://github.com/Isha957/yield_forecasting/blob/master/images/monthly%20NDVI%20.png" style="width:300px;height:200px";></img><br>
+<img src = "https://github.com/Isha957/yield_forecasting/blob/master/images/monthly%20NDVI%20.png" style="width:300px;height:200px";></img><br>
 
 <h2><u>Building the Regional Model:</u></h2>
 Machine Learning using PyspatialML and Scikit-learn
