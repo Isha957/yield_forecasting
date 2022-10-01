@@ -41,7 +41,7 @@ Sentinel-2 derived NDVI and GVCI are extracted for the area of interest biweekly
 Machine Learning using PyspatialML and Scikit-learn
 With the python library Pyspatialml, scikit-learn machine learning models can be applied to raster-based datasets. Here we used monthly maximum NDVI rasters extracted from the GEE products as bands with the tsraster library as input features. The target data, field-scale yield values, were in a shapefile format that could be overlaid on the rasters to extract corresponding feature raster values to create the training data set. Pyspatialml also includes methods to plot the results and modify rasters.
 <br>
-<img src ="https://github.com/Isha957/yield_forecasting/blob/master/Cropmaskvisualization.png" alt = "Applying Cross Mask" style="width:300px;height:200px";></img>
+<img src ="https://github.com/Isha957/yield_forecasting/blob/master/Cropmaskvisualization.png" alt = "Applying Cross Mask" style="width:500px;height:500px";></img>
 
 <h2><u>Model Experimentation:</u></h2>
 <ul>
@@ -53,7 +53,8 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
 
 <li><b><i>GCVI Data Modeling:</i></b></li>
 <p>The preprocessed data was run through multiple prediction models to compare and analyze the results, performance metrics, and visualization. The regression      models assessed to show model predicted yield values against the Maximum Bi-weekly GCVI values during June.</p>
-<img src= "https://github.com/Isha957/yield_forecasting/blob/master/Linear%20Regression.png" style="width:300px;height:200px";></img><br>
+
+<img src="https://github.com/Isha957/yield_forecasting/blob/master/Linear%20Regression.png" style="width:300px;height:200px";></img><br>
 <i>From the above performance metrics, we note that Linear Regression algorithm has performed the best on the maximum GCVI data for the 13 biweekly time periods from January through June with the lowest Root Mean Squared Error Value of 0.47 and an R-squared value of 0.015</i>
 
 
