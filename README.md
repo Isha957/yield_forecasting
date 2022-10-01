@@ -61,8 +61,7 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
 <h2>Time-Series Visualization</h2>
 <img src ="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-NDVI.png" style="width:300px;height:200px";></img><br>
 <i>NDVI time series plot, NDVI value at each biweekly interval represents an average of the values across rice fields locations</i><br>
-
-<img src="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-GCVI.png" style="width:300px;height:200px";></img><br>
+<img src ="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-GCVI.png" style="width:300px;height:200px";></img><br>
 <i>GCVI time series plot, GCVI value at each biweekly interval represents an average of the values across rice fields location.</i>
 
 </p>    
