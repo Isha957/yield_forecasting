@@ -39,7 +39,7 @@ Sentinel-2 derived NDVI and GVCI are extracted for the area of interest biweekly
 <img src = "https://github.com/Isha957/yield_forecasting/blob/master/images/gcvi%20image.png" style="width:300px;height:200px";></img><br>
 </ul><br>
 
-<img src ="https://git" hub.com/Isha957/yield_forecasting/blob/master/images/monthly%20NDVI%20.png" style="width:300px;height:200px";></img><br>
+<img src ="https://github.com/Isha957/yield_forecasting/blob/master/images/monthly%20NDVI%20.png" style="width:300px;height:200px";></img><br>
 
 <h2><u>Building the Regional Model:</u></h2>
 Machine Learning using PyspatialML and Scikit-learn
@@ -69,7 +69,7 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
 <h2>Other models</h2>
 <p>We also experimented with the following models to compare the performance metrics and choose the best fit for the Max NDVI data and max GCVI data values individually. 
 <ul>
-        <li>Random Forest<li>
+        <li>Random Forest</li>
         <li>Support Vector Machine - RBF , Linear, Polynomial , Sigmoid kernels</li>
         <li>Polynomial Regression</li>
         <li>Lasso Regression</li>
