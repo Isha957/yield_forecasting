@@ -57,11 +57,13 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
 <i>From the above performance metrics, we note that Linear Regression algorithm has performed the best on the maximum GCVI data for the 13 biweekly time periods from January through June with the lowest Root Mean Squared Error Value of 0.47 and an R-squared value of 0.015</i>
 
 
-<h2>Time-Series Visualization</h2>
+<h2>Time-Series Visualization</h2><br>
+
 <img src =" https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-NDVI.png"></img><br>
- <i>NDVI time series plot, NDVI value at each biweekly interval represents an average of the values across rice fields locations</i> <br>
- <img src="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-GCVI.png"></img>
- <i>GCVI time series plot, GCVI value at each biweekly interval represents an average of the values across rice fields location.</i>
+<i>NDVI time series plot, NDVI value at each biweekly interval represents an average of the values across rice fields locations</i> <br>
+
+<img src="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-GCVI.png"></img>
+<i>GCVI time series plot, GCVI value at each biweekly interval represents an average of the values across rice fields location.</i>
 
 </p>    
 </body>
