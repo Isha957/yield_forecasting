@@ -62,7 +62,19 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
 <img src ="https://github.com/Isha957/yield_forecasting/blob/master/Linear%20Regression.png" style="width:300px;height:200px";></img><br>
 <i>From the above performance metrics, we note that Linear Regression algorithm has performed the best on the maximum GCVI data for the 13 biweekly time periods from January through June with the lowest Root Mean Squared Error Value of 0.47 and an R-squared value of 0.015</i>
 
-
+<h2>Other models</h2>
+<p>We also experimented with the following models to compare the performance metrics and choose the best fit for the Max NDVI data and max GCVI data values individually. 
+<ul>
+        <li>Random Forest<li>
+        <li>Support Vector Machine - RBF , Linear, Polynomial , Sigmoid kernels</li>
+        <li>Polynomial Regression</li>
+        <li>Lasso Regression</li>
+        <li>Ridge Regression</li>
+        <li>Decision Tree</li>
+        <li>XG Boost</li>
+ </ul>
+<p>Performance Metrics Used - RMSE , R-squared , CV accuracy</p>
+       
 </p>    
 </body>
 </html>
