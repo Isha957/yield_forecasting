@@ -80,8 +80,8 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
        
 <h2><span style="color:Green"> Team </span></h2>
 <ul>
-       <li><b>Dr.Catherine Nakalembe</b>,<i>Assistant Research Professor, Dept of Geographical Sciences,University of Maryland</i></li>
-        <li><b>Dr. Ritvik Sahajpal</b><i>Assistant Research Professor, Dept of Geographical Sciences,University of Maryland</i></li>
+       <li><b>Dr.Catherine Nakalembe</b>-<i>Assistant Research Professor, Dept of Geographical Sciences,University of Maryland</i></li>
+        <li><b>Dr. Ritvik Sahajpal</b>-<i>Assistant Research Professor, Dept of Geographical Sciences,University of Maryland</i></li>
         <li>Alana Ceil Ginsburg</li>
         <li>Mahmoud Abuoelmakarem</li>
         </ul>       
