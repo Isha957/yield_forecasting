@@ -82,7 +82,7 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
 <ul>
        <li><b>Dr.Catherine Nakalembe</b></li>-<i>Assistant Research Professor, Dept of Geographical Sciences,University of Maryland</i>
        <li><b>Dr. Ritvik Sahajpal</b></li>-<i>Associate Research Professor, Dept of Geographical Sciences,University of Maryland</i></li>
-        <li><b>Alana Ceil Ginsburg</b></li>-<i> Undergrad Research Assistant, Dept of Geographical Sciences, University of Maryland</i>
+        <li><b>Alana Ginsburg</b></li>-<i> Undergrad Research Assistant, Dept of Geographical Sciences, University of Maryland</i>
         <li>Mahmoud Abuoelmakarem</li>-<i>Economic Research Assistant, Dept of Geographical Sciences, University of Maryland</i>
         </ul>       
 </p>    
