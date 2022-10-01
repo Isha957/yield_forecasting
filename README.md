@@ -41,7 +41,7 @@ Sentinel-2 derived NDVI and GVCI are extracted for the area of interest biweekly
 Machine Learning using PyspatialML and Scikit-learn
 With the python library Pyspatialml, scikit-learn machine learning models can be applied to raster-based datasets. Here we used monthly maximum NDVI rasters extracted from the GEE products as bands with the tsraster library as input features. The target data, field-scale yield values, were in a shapefile format that could be overlaid on the rasters to extract corresponding feature raster values to create the training data set. Pyspatialml also includes methods to plot the results and modify rasters.
 <br>
-<img src ="https://github.com/Isha957/yield_forecasting/blob/master/Cropmaskvisualization.png" alt = "Applying Cross Mask" style="width:500px;height:500px";></img>
+<img src ="https://github.com/Isha957/yield_forecasting/blob/master/Cropmaskvisualization.png" alt = "Applying Cross Mask" style="width:600px;height:400px";></img>
 
 <h2><u>Model Experimentation:</u></h2>
 <ul>
@@ -60,7 +60,7 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
 
 <h2>Time-Series Visualization</h2>
 <img src ="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-NDVI.png" style="width:300px;height:200px";></img><br>
-<i>NDVI time series plot, NDVI value at each biweekly interval represents an average of the values across rice fields locations</i> <br>
+<i>NDVI time series plot, NDVI value at each biweekly interval represents an average of the values across rice fields locations</i><br>
 
 <img src="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-GCVI.png" style="width:300px;height:200px";></img><br>
 <i>GCVI time series plot, GCVI value at each biweekly interval represents an average of the values across rice fields location.</i>
