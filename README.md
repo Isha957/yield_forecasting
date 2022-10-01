@@ -1,7 +1,7 @@
 # NASA SERVIR - yield_forecasting
 <html>
 <body>
-        <h1><font color="Green">NASA SERVIR </font></h1>
+       
 <p style="font-family:times" >
 <h2>The focus of the Project/Model:</h2><br>
 Using the ground data from rice farms in the Katavi region of Tanzania, we build a machine learning model that predicts the end-of-season rice yield from different earth observation features.
