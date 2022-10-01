@@ -38,7 +38,6 @@ Sentinel-2 derived NDVI and GVCI are extracted for the area of interest biweekly
 <p>Using the Sentinel-2 Image Collection band data: Bands - B3 (Green) ; B8  (NIR) and the above formula, we obtain max GCVI values for each image. The GCVI        tif images are extracted  at 10m resolution.We generate these values every two weeks between the date range and export these images into a tiff file. These files can be accessed in Python using Geopandas/Rasterio and can be visualized.
 <img src = "https://github.com/Isha957/yield_forecasting/blob/master/images/gcvi%20image.png" style="width:300px;height:200px";></img><br>
 </ul><br>
-
 <img src = "https://github.com/Isha957/yield_forecasting/blob/master/images/monthly%20NDVI%20.png" style="width:300px;height:200px";></img><br>
 
 <h2><u>Building the Regional Model:</u></h2>
