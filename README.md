@@ -2,6 +2,7 @@
 <html>
 <body>
 <p style="font-family:times" >
+<h1 color ="Yellow"> NASA SEVIR </h2><br>
         <h2>The focus of the Project/Model:</h2><br>
 Using the ground data from rice farms in the Katavi region of Tanzania, we build a machine learning model that predicts the end-of-season rice yield from different earth observation features.
 <p color="009B77"><h2>Test Data Boundaries</h2></p>
