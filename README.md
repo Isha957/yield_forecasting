@@ -31,7 +31,7 @@ Equation 2: Calculation for GCVI from Sentinel 2 bands 8 and 3
 Sentinel-2 derived NDVI and GVCI are extracted for the area of interest biweekly from January through June from Google Earth Engine.
 <ul>
 <li><b><i>Extraction of NDVI time series data:</i></b></li>
-<p>Using the Sentinel-2 Image Collection band data: Bands - B4 (Red) ; B8  (NIR) and the above formula, we obtain max NDVI values for each image. The NDVI tif        images are extracted  at 10m resolution.We generate these values every two weeks between the date range and export these images into a tiff file. These files can be accessed in Python using Geopandas/Rasterio and can be visualized.</p>
+<p>Using the Sentinel-2 Image Collection band data: Bands - B4 (Red) ; B8  (NIR) and the above formula, we obtain max NDVI values for each image. The NDVI tif        images are extracted  at 10m resolution.We generate these values every two weeks between the date range and export these images into a tiff file. These files can be accessed in Python using Geopandas/Rasterio and can be visualized.</p><br>
 
 <li><b><i>Extraction of GCVI time series data:</i></b></li>
 <p>Using the Sentinel-2 Image Collection band data: Bands - B3 (Green) ; B8  (NIR) and the above formula, we obtain max GCVI values for each image. The GCVI        tif images are extracted  at 10m resolution.We generate these values every two weeks between the date range and export these images into a tiff file. These files can be accessed in Python using Geopandas/Rasterio and can be visualized.
@@ -58,10 +58,10 @@ With the python library Pyspatialml, scikit-learn machine learning models can be
 
 
 <h2>Time-Series Visualization</h2>
-<img src ="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-NDVI.png"></img><br>
+<img src ="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-NDVI.png" style="width:500px;height:600px";></img><br>
 <i>NDVI time series plot, NDVI value at each biweekly interval represents an average of the values across rice fields locations</i> <br>
 
-<img src="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-GCVI.png"></img>
+<img src="https://github.com/Isha957/yield_forecasting/blob/master/Time%20series%20-GCVI.png" style="width:500px;height:600px";></img><br>
 <i>GCVI time series plot, GCVI value at each biweekly interval represents an average of the values across rice fields location.</i>
 
 </p>    
